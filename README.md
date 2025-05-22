@@ -35,9 +35,11 @@ The Employee Tracker is a command-line application that allows business owners t
 ### Configuration
 1. Create a `.env` file in the root directory and add your PostgreSQL database credentials:
    ```
+   DB_HOST=localhost
    DB_USER=your_username
    DB_PASSWORD=your_password
-   DB_NAME=your_database
+   DB_NAME=employee_tracker
+   DB_PORT=5432
    ```
 
 ### Running the Application
